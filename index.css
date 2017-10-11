@@ -10,7 +10,6 @@ body, html {
 .caption {
   position: absolute;
   float: right;
-  top: 40%;
   font-size: 25px;
   padding-bottom: 5px;
   width: 80%;
@@ -233,3 +232,6 @@ figure:hover .overlay{
   float: left;
   width: 33%;
 }
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
