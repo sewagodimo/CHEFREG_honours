@@ -195,27 +195,7 @@ figure:hover .pdfimage{
 	 opacity: 0.7;
 }
 
-.overlay {
-  transition: .5s ease;
-  opacity: 0;
 
-  position: relative;
-  float: center;
-  left:50%;
-  top:20%;
-  transform: translate(-35%, -270%);
-  -ms-transform: translate(-50%, -50%);
-}
-figure:hover .overlay{
-	opacity: 0.9;
-	cursor: pointer;
-}
-.overlay-text {
-  background-color: #4CAF50;
-  color: white;
-  font-size: 16px;
-  padding: 16px 32px;
-}
 .document-container{
   width: 100%;
   overflow: hidden;
