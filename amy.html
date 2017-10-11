@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Admin Web Application</title>
+  <link rel="shortcut icon" href="images/ic_launcher.png">
+  <link rel="stylesheet" type="text/css" href="amy.css">
+  <script src="index.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+ </head>
+ <body>
+
+<div class="navbar bg" >
+  <a href="#home" >ICTChefs</a>
+  <a href="#approach" >Methodology</a>
+   <a href="#paper" >Prototypes</a>
+   <a href="#eval" >Evalution</a>
+ 	<a href="#results" >Results</a>
+ 	<a href="#downloads" >Download</a>
+   <a href="index.html" >Home</a>
+
+</div>
+<div id="container">
+  <div id="home">
+    <h1 >ICTChefs: An admin web application for ICT</h1>
+    <p>What follows is an overview of the project - for greater detail on the project, please download the <a href="documents/FinalPaper_amy.pdf"> full paper. <a></p>
+    <h2> Background</h2>
+<p>Infinity Culinary Training (ICT) is a non-profit organisation that
+    equips young disadvantaged men and women with basic cooking
+    skills to find employment. In addition to professional culinary
+    skills, the organisation strives to foster life skills to encourage
+    personal development and enable students to thrive in the catering
+    industry. Students who have been accepted to the program go
+    through a 3-month intensive training program followed by a 1
+    month paid internship and a placement in the work field. After
+    each class begins their internship placements a new group of
+    students begins their training. Each class is made up of at least 20
+    students. ICT started in 2009 and has over 297 graduates to date.</p>
+
+<p> One of the things that set ICT apart is their commitment to the
+    personal development of students, even after they have
+    graduated from the school. It is important for the organisation to
+    remain in contact with their graduates to continue to support them
+    on their professional journeys. However, the increase in the
+    number of graduates has made this a more difficult task for the
+    administrative staff which is made up of only 3 people.</p>
+
+<p>
+    The school uses a spreadsheet to keep record of all their student
+    information. The spreadsheet is shared by everyone in the
+    administrative team. Any changes to the student’s information
+    must be entered by the admin team manually. To put this into
+    perspective, every time any of the over 300 graduates changes their
+    phone number someone in the admin team must find that
+    student’s record in the spreadsheet and update it. </p>
+
+ <h2> Research Questions</h2>
+ <h3>The following research question has been formulated for the project:</h3>
+ <li>How would admin staff want to use the system to more effectively manage their daily operations?</li>
+<li>How would the admin staff feel about the design process and the use of low, medium and high fidelity prototypes in designing a usable system for the school?</li>
+<li>What features would the admin staff identify to be most important in the design of an admin system?</li>
+</div>
+
+<div id="approach">
+<div class="header" >Methodology</div>
+<h2>Co-design</h2>
+<p>
+    Co-design is a methodology that focuses on the collaboration of researchers/designers and the end-users in all phases
+    of the design and implementation of a project. It can be viewed as a way to help organise joint creativity between
+    the end-users and the researchers/designers. It allows for an early focus on the end-user which is beneficial for
+    understanding the end-users needs and wants early in the project. In co-design end-users and researchers/designers
+    will jointly create sketches, prototypes, mock-ups and other generative tools that aid communication to design a solution
+    for the end-user’s problem. The knowledge of the end-users and researchers/designers is brought together to
+    generate knowledge about a favourable future solution. In other words, co-design is a collaboration of all stakeholders
+    to create a solution/product that solves a problem for the end-users.
+    With the above in mind, a co-design methodology was adopted for the project. This allowed the stakeholders at ICT to collaboratively
+    co-create an admin system that would benefit them. This methodology was followed throughout the project with stakeholders at
+    ICT helping to design prototypes in all three iterations.
+</p>
+<h2> Analysis and requirements</h2>
+<p>
+    ICT currently makes use of an excel spreadsheet to keep track of all students and graduates. This spreadsheet keeps track
+    of the name, contact details and employment details of all students and graduates. As the number of graduates increases it
+    becomes increasingly difficult for ICT to manage and maintain this spreadsheet. The stakeholders at ICT helped to collaboratively
+    co-create an admin system that would replace their spreadsheet database. The creation of the admin web application took place in three iterations.
+    In the first iteration, the stakeholders collaborated on thedesign of a paper prototype of the admin web application to determine the key features
+    required of the system. The second iteration involved the co-creation of an interactive prototype which aided the refinement of the key
+    features and helped in determining which features were most important. Finally, the third iteration involved the creation of a software prototype
+    based upon the design and feedback acquired from the previous iterations. </p>
+
+<h2>Prototyping</h2>
+<p>
+    The first iteration of this project involved the creation of a paper prototype which modelled the idea of an admin system
+    to replace the excel spreadsheets currently used. The feedback from the paper prototype was used for the design phase of the
+    second iteration. The second iteration involved the creation of an interactive prototype in powerpoint, this prototype
+    included any additions or changes made in the previous iteration. The feedback from the interactive prototype was then
+    used in the design phase of the third iteration. The third iteration involved the creation of a software prototype which
+    included the additions and changes from the second iteration. It was created using a mysql database, Django back-end and
+    a HTML/CSS/JavaScript front-end.</p>
+</div>
+<div>
+ <div class="header" id="eval">Evaluation Methods</div>
+ <p>Two methods were used to evaluate the project, these methods were usability testing and heuristic evaluation.
+     The usability tests will evaluate how the users interact with the interface and the ease-of-use of the interface.
+     The heuristic evaluations were used to assess the design of the interface and support the identification of flaws in
+     the design. These methods were necessary to the project and ensured that each prototype was thoroughly tested and
+     met the needs of the stakeholders.</p>
+
+
+</div>
+<div>
+ <div class="header" id="paper">Prototypes</div>
+ <br></br>
+ <b><h2 id="protoheads">Paper Prototype<h2></b>
+ <br></br>
+ <img id="protoImages" src="images/paper.png"></img>
+ <br></br>
+ <b><h2 id="protoheads">Interactive Prototype</h2></b>
+ <br></br>
+ <img id="protoImages" src="images/interactive.png"></img>
+ <br></br>
+ <b><h2 id="protoheads">Software Prototype</h2></b>
+ <br></br>
+ <h3>Add Student</h3>
+ <br></br>
+ <img id="protoImages" src="images/addStudent.PNG"></img>
+ <br></br>
+ <h3>view Students/Graduates/Dropouts</h3>
+ <br></br>
+ <img id="protoImages" src="images/viewStudents_sel.PNG"></img>
+
+</div>
+
+<div>
+  <div class="header" id="results">Results</div>
+  <p>
+      The results showed that the paper prototype of the first iteration led to a better design of the system.
+      They also showed that the interactive prototype of the second iteration further improved on the design and provided
+      better usability. Finally, they showed that the software prototype of the third iteration had further improved upon
+      the system design and produced an intuitive and usable system for ICT. Each iteration helped to ensure that the
+      solution was aligned with the needs of ICT and provided the functionality they deemed important. Therefore,
+      the iterative process was ultimately a success and greatly aided the software design process.
+  </p>
+</div>
+
+<div>
+  <div class="header" id="downlaods">Downloads</div>
+  <h3><a href="FinalPaper_amy.pdf">Final Paper</a></h3>
+  <h3><a href="Literature_Review_amy.pdf">Literature Review</a></h3>
+</div>
+
+</div>
+</body>
+</html>
