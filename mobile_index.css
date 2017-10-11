@@ -60,6 +60,18 @@ h2{
 li{
 	padding-left: 7%;
 }
-.title{
+.downloads{
+	text-align: center;
+	display: inline;
+	float:left;
+	width: 30%;
+	height: 30%;
+	font-size: 15px;
+
+}
+.pdf-image{
+	border: 1px solid #4CAF50;
+		width: 100%;
+	height: 100%;
 
 }
