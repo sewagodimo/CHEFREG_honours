@@ -213,6 +213,10 @@ figure:hover .pdfimage{
 .guide{
   float: left;
   width: 33%;
+
+}
+#guideimage, #proposalimage, #posterimage{
+  border: 1px solid black;
 }
 .mySlides {display:none}
 .w3-left, .w3-right, .w3-badge {cursor:pointer}

@@ -81,3 +81,6 @@ li{
 .title{
 
 }
+#paperimage, #litimage{
+  border: 1px solid black;
+}
