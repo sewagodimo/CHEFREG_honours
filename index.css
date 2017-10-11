@@ -218,6 +218,7 @@ figure:hover .overlay{
 .document-container{
   width: 100%;
   overflow: hidden;
+  padding-bottom: 1cm;
 }
 .proposal{
   float: left;
