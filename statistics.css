@@ -65,7 +65,9 @@ li{
 #table-image, #results-image, #add-image, #statistics-image{
   margin-left: 2cm;
 }
-
+.paper-prototype{
+  padding-left: 2cm;
+}
 .download-container{
   overflow: hidden;
 }
