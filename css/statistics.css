@@ -47,6 +47,15 @@ body, html {
 	text-shadow: 2px;
    font-weight: bold;
 }
+.head{
+	background-color: black;
+	font-size: 85%;
+	text-align: center;
+	width: 100%;
+	color: white;
+	height: 6%;
+
+}
 h1,h2,p,li,h3{
 	padding-left: 5%;
 	padding-right: 5%;

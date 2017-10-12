@@ -47,6 +47,28 @@ body, html {
 	text-shadow: 2px;
    font-weight: bold;
 }
+.head{
+	background-color: black;
+	font-size: 85%;
+	text-align: center;
+	width: 100%;
+	color: white;
+	height: 6%;
+
+}
+.download-container{
+  overflow: hidden;
+}
+.lit-review{
+  float: left;
+  padding-left: 1cm;
+}
+.final-paper{
+  margin-left: 400px;
+}
+#paperimage, #litimage{
+  border: 1px solid black;
+}
 h1,p,li,h3{
 	padding-left: 5%;
 	padding-right: 5%;
